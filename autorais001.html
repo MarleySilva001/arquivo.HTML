@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charada</title>
+    <style>
+        .imagem {
+            width: 20%;
+            height: 20%;
+        }
+
+
+        .radios {
+            text-align: justify;
+            margin-left: 42%;
+        }
+    </style>
+</head>
+
+
+<body style="background-color: rgb(227, 240, 240);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center ">
+                <h2>Charada</H2><br>
+                <h6>O que é o que é, tem coroa, mas não é rei?</H6>
+                <p>(digite tudo em letras minusculas.)</p>
+                <img class="imagem"
+                    src="data:image/png;base64,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"
+                    alt="Interrogação"><br>
+                    <p></p>
+                <input type="text" id="resposta" placeholder="Digite a resposta"><br>
+                <p></p>
+                <button onclick="correct()" type="button" class="btn btn-outline-warning" style="width: 300px;" style="color: darkgreen;">Enviar resposta</button><br>
+                <p></p>
+                <p id="resultado">A resposta esta ...</p>
+                <br>
+                <h2>Quiz #1</H2><br>
+                    <h6>Essa bandeira é de qual país?</H6><br>
+                    <img class="imagem"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAFVBMVEX///8AJlTOESYAGU16gpXefILNABnwlnA6AAAA/klEQVR4nO3QSQ0AIAADsHH6l4yKPUhaCc2oWTs9586aOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHixIkTJ06cOHHy4ckD5KrN4eD2boIAAAAASUVORK5CYII="
+                        alt="frança"><br>
+                        <p></p>
+                        <input id="italia" type="radio" name="tipo">Italia</input><br>
+                        <input id="frança" type="radio" name="tipo">França</input><br>
+                        <input id="russia" type="radio" name="tipo">Russia</input><br>
+                        <input id="holanda" type="radio" name="tipo">Holanda</input><br>
+                    <p></p>
+                    <button onclick="certo()" style="width: 300px;" style="color: crimson;">Enviar resposta</button><br>
+                    <p></p>
+                    <p id="resultado2">A resposta esta ...</p>
+    
+            </div>
+        </div>
+    </div>
+    <script>
+   
+        function correct()
+         {
+            var resposta = document.getElementById("resposta").value
+
+
+            if(resposta.match('abacaxi'))
+            {
+                resultado = ('Correta,Parabéns!');
+            }
+            else
+            {
+                resultado = ('Errada, Tente novamente!');
+            }
+            document.getElementById("resultado").innerHTML = resultado
+        }
+
+        function certo() {
+            var resultado
+            if(document.getElementById("frança").checked){
+                resultado = ('Correto,Parabéns!');
+            }
+            else if(document.getElementById("italia").checked){
+                resultado = ('Quase!uma das cores está errada.');
+            }
+            else if(document.getElementById("russia").checked){
+                resultado = ('Essa foi longe.');
+            }
+            else if(document.getElementById("holanda").checked){
+                resultado = ('Cores:Sim, Certo:Não.');
+            }
+            document.getElementById("resultado2").innerHTML = resultado
+        }
+
+
+
+    </script>
+</body>
+
+
+</html>
